@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AlphaOS helps crypto researchers discover early projects, smart-money movements, and DeFi opportunities."
+    />
+    <meta name="theme-color" content="#07110f" />
+    <title>AlphaOS | On-chain opportunity intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="AlphaOS 首页">
+        <span class="brand-mark">A</span>
+        <span>ALPHA<span class="brand-muted">OS</span></span>
+        <span class="version">V0.1</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#opportunities">机会</a>
+        <a href="#agents">Agents</a>
+        <a href="#method">方法论</a>
+      </nav>
+      <a class="terminal-link" href="https://github.com/tichenben/alphaos" target="_blank" rel="noreferrer">
+        OPEN SOURCE <span>↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="pulse"></span> ON-CHAIN INTELLIGENCE / LIVE RESEARCH</div>
+        <div class="hero-grid">
+          <div>
+            <h1>发现市场<br />尚未定价的<span>链上机会。</span></h1>
+            <p class="hero-copy">
+              聚合早期项目、Smart Money 异动与 DeFi 收益信号，
+              将碎片化链上数据转化为可验证的研究线索。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-action" href="#opportunities">查看今日机会 <span>→</span></a>
+              <a class="text-action" href="#method">了解评分模型</a>
+            </div>
+          </div>
+          <div class="signal-card" aria-label="系统信号概览">
+            <div class="signal-card-header">
+              <span>SYSTEM SIGNAL</span>
+              <span class="status">RESEARCH MODE</span>
+            </div>
+            <div class="signal-score">
+              <span id="hero-score">84</span><small>/100</small>
+            </div>
+            <div class="signal-label">CURRENT MARKET OPPORTUNITY INDEX</div>
+            <div class="signal-bars" aria-hidden="true">
+              <i style="--h: 30%"></i><i style="--h: 42%"></i><i style="--h: 38%"></i>
+              <i style="--h: 58%"></i><i style="--h: 49%"></i><i style="--h: 68%"></i>
+              <i style="--h: 62%"></i><i style="--h: 78%"></i><i style="--h: 84%"></i>
+              <i style="--h: 74%"></i><i style="--h: 92%"></i><i style="--h: 86%"></i>
+            </div>
+            <div class="signal-meta">
+              <div><span>CHAINS</span><strong>03</strong></div>
+              <div><span>SIGNALS</span><strong id="signal-count">12</strong></div>
+              <div><span>UPDATED</span><strong>UTC+8</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="监控状态">
+        <div>ETHEREUM <span>● ACTIVE</span></div>
+        <div>SOLANA <span>● ACTIVE</span></div>
+        <div>BNB CHAIN <span>● ACTIVE</span></div>
+        <div>DATA MODE <span>DEMO</span></div>
+      </section>
+
+      <section class="opportunities" id="opportunities">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">01</span>
+            <h2>今日机会雷达</h2>
+          </div>
+          <p>按照信号强度、风险、时效与可验证性综合排序。</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="机会类型筛选">
+          <button class="filter active" data-filter="all">全部信号</button>
+          <button class="filter" data-filter="early">早期项目</button>
+          <button class="filter" data-filter="whale">Smart Money</button>
+          <button class="filter" data-filter="defi">DeFi 收益</button>
+        </div>
+
+        <div class="opportunity-list" id="opportunity-list">
+          <div class="loading-state">LOADING RESEARCH DATA...</div>
+        </div>
+      </section>
+
+      <section class="agents" id="agents">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">02</span>
+            <h2>研究 Agent</h2>
+          </div>
+          <p>首版为规则驱动研究框架，数据验证完成后逐步接入自动分析。</p>
+        </div>
+        <div class="agent-grid">
+          <article class="agent-card">
+            <span class="agent-number">A01</span>
+            <div class="agent-icon">◉</div>
+            <h3>Whale Agent</h3>
+            <p>追踪巨鲸与 Smart Money 的建仓、转账和新协议交互。</p>
+            <div class="agent-footer"><span>STATUS</span><strong>RESEARCHING</strong></div>
+          </article>
+          <article class="agent-card">
+            <span class="agent-number">A02</span>
+            <div class="agent-icon">◇</div>
+            <h3>Venture Agent</h3>
+            <p>整理融资背景、机构钱包和早期生态参与信号。</p>
+            <div class="agent-footer"><span>STATUS</span><strong>RESEARCHING</strong></div>
+          </article>
+          <article class="agent-card">
+            <span class="agent-number">A03</span>
+            <div class="agent-icon">⌁</div>
+            <h3>Yield Agent</h3>
+            <p>比较跨链收益、TVL 变化、激励持续性与合约风险。</p>
+            <div class="agent-footer"><span>STATUS</span><strong>RESEARCHING</strong></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="method" id="method">
+        <div>
+          <span class="section-index">03 / METHODOLOGY</span>
+          <h2>每个结论，都应该<br />可以被追溯和证伪。</h2>
+        </div>
+        <div class="method-list">
+          <div><span>01</span><strong>Signal</strong><p>链上资金、项目基本面与社交数据形成原始信号。</p></div>
+          <div><span>02</span><strong>Context</strong><p>结合历史行为、市场阶段与同类项目建立上下文。</p></div>
+          <div><span>03</span><strong>Risk</strong><p>单独评估合约、流动性、代币结构和信息不对称风险。</p></div>
+          <div><span>04</span><strong>Evidence</strong><p>保留来源与时间戳，不把评分包装成确定性收益。</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand"><span class="brand-mark">A</span><span>ALPHAOS</span></div>
+      <p>Research signals, not financial advice. Always verify independently.</p>
+      <span>© <span id="year"></span> ALPHAOS</span>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
