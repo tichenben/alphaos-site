@@ -1,41 +1,64 @@
 {
-  "generatedAt": "2026-06-15T13:49:29.359Z",
+  "generatedAt": "2026-06-15T19:40:28.163Z",
   "stale": false,
   "sourceStatus": {
     "dexscreener": {
       "status": "ok",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     "defillama": {
       "status": "ok",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     "rpc": {
       "status": "ok",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     }
   },
   "chainHeads": {
     "ethereum": {
-      "height": 25323306,
-      "observedAt": "2026-06-15T13:49:29.734Z",
+      "height": 25325055,
+      "observedAt": "2026-06-15T19:40:28.500Z",
       "status": "ok"
     },
     "bsc": {
-      "height": 104385118,
-      "observedAt": "2026-06-15T13:49:29.967Z",
+      "height": 104431906,
+      "observedAt": "2026-06-15T19:40:28.743Z",
       "status": "ok"
     },
     "solana": {
-      "height": 426646402,
-      "observedAt": "2026-06-15T13:49:29.765Z",
+      "height": 426699483,
+      "observedAt": "2026-06-15T19:40:28.743Z",
       "status": "ok"
     }
   },
-  "marketIndex": 66,
+  "marketIndex": 68,
   "signalCount": 100,
   "disclaimer": "Research data only. AlphaOS does not provide financial advice.",
   "opportunities": [
+    {
+      "id": "protocol:119",
+      "kind": "protocol",
+      "name": "SushiSwap",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 85,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "SushiSwap is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$37,990,242.01 TVL",
+        "17.24% TVL change over 7 days",
+        "2 monitored chains",
+        "14.73% APY on $1,050,930 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sushiswap",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
     {
       "id": "protocol:2807",
       "kind": "protocol",
@@ -52,12 +75,12 @@
       "summary": "MatrixDock STBT is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
         "$23,681,214.76 TVL",
-        "238.52% TVL change over 7 days",
+        "233.76% TVL change over 7 days",
         "1 monitored chains",
         "3.58% APY on $23,681,214 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/matrixdock-stbt",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:6659",
@@ -74,13 +97,36 @@
       },
       "summary": "3Jane Lending is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$13,605,009.47 TVL",
-        "1,552.92% TVL change over 7 days",
+        "$14,129,586.63 TVL",
+        "1,645.13% TVL change over 7 days",
         "1 monitored chains",
-        "3.33% APY on $33,641,373 pool TVL"
+        "3.34% APY on $33,854,286 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/3jane-lending",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:278",
+      "kind": "protocol",
+      "name": "Ankr",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 80,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Ankr is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$19,142,857.19 TVL",
+        "8.12% TVL change over 7 days",
+        "2 monitored chains",
+        "2.67% APY on $15,922,983 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ankr",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:4799",
@@ -88,7 +134,7 @@
       "name": "TermMax",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 82,
+      "score": 80,
       "risk": {
         "level": "low",
         "reasons": [
@@ -97,13 +143,13 @@
       },
       "summary": "TermMax is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$37,197,077.02 TVL",
-        "6.81% TVL change over 7 days",
+        "$37,206,989.36 TVL",
+        "1.37% TVL change over 7 days",
         "2 monitored chains",
-        "1.06% APY on $15,240,450 pool TVL"
+        "1.06% APY on $15,240,583 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/termmax",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7954",
@@ -120,18 +166,18 @@
       },
       "summary": "Gami Labs is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$35,547,656.5 TVL",
-        "9.45% TVL change over 7 days",
+        "$35,501,966.84 TVL",
+        "9.29% TVL change over 7 days",
         "1 monitored chains",
-        "6.9% APY on $12,004,343 pool TVL"
+        "6.9% APY on $12,003,554 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/gami-labs",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:119",
+      "id": "protocol:2076",
       "kind": "protocol",
-      "name": "SushiSwap",
+      "name": "Fraxlend",
       "type": "defi",
       "chain": "Ethereum",
       "score": 79,
@@ -141,15 +187,15 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "SushiSwap is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Fraxlend is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$37,247,397.44 TVL",
-        "15.01% TVL change over 7 days",
-        "2 monitored chains",
-        "11.31% APY on $1,006,018 pool TVL"
+        "$20,843,290.54 TVL",
+        "10.69% TVL change over 7 days",
+        "1 monitored chains",
+        "2.5% APY on $5,974,667 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/sushiswap",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/fraxlend",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:220",
@@ -166,18 +212,18 @@
       },
       "summary": "Vesper is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$43,017,536.25 TVL",
-        "2.39% TVL change over 7 days",
+        "$43,722,955.03 TVL",
+        "4.02% TVL change over 7 days",
         "1 monitored chains",
-        "1.39% APY on $21,015,798 pool TVL"
+        "1.4% APY on $21,015,798 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/vesper",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:278",
+      "id": "protocol:2611",
       "kind": "protocol",
-      "name": "Ankr",
+      "name": "Balancer V2",
       "type": "defi",
       "chain": "Ethereum",
       "score": 79,
@@ -187,15 +233,38 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Ankr is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Balancer V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$18,488,131.25 TVL",
-        "5.55% TVL change over 7 days",
-        "2 monitored chains",
-        "2.67% APY on $15,349,878 pool TVL"
+        "$27,520,049.34 TVL",
+        "9.34% TVL change over 7 days",
+        "1 monitored chains",
+        "1.86% APY on $11,310,885 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/ankr",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/balancer-v2",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4606",
+      "kind": "protocol",
+      "name": "YieldNest",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 79,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "YieldNest is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$21,371,555.33 TVL",
+        "4.76% TVL change over 7 days",
+        "2 monitored chains",
+        "11.45% APY on $9,334,670 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/yieldnest",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:5145",
@@ -212,82 +281,13 @@
       },
       "summary": "Fusion by IPOR is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$30,859,059.21 TVL",
-        "6.32% TVL change over 7 days",
+        "$31,859,943.45 TVL",
+        "6.9% TVL change over 7 days",
         "1 monitored chains",
-        "5.39% APY on $5,559,499 pool TVL"
+        "5.29% APY on $5,860,386 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/fusion-by-ipor",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:5280",
-      "kind": "protocol",
-      "name": "Origin ARM",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 79,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Origin ARM is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$4,715,780.06 TVL",
-        "53.29% TVL change over 7 days",
-        "1 monitored chains",
-        "3.11% APY on $1,178,734 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/origin-arm",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:1594",
-      "kind": "protocol",
-      "name": "Symbiosis",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 78,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Symbiosis is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$9,378,048.15 TVL",
-        "10.77% TVL change over 7 days",
-        "2 monitored chains",
-        "7.64% APY on $1,394,110 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/symbiosis",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2076",
-      "kind": "protocol",
-      "name": "Fraxlend",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 78,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Fraxlend is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$20,272,736.94 TVL",
-        "8.24% TVL change over 7 days",
-        "1 monitored chains",
-        "2.5% APY on $5,975,180 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/fraxlend",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:2537",
@@ -304,18 +304,18 @@
       },
       "summary": "Flux Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$43,996,817.59 TVL",
+        "$43,996,846.56 TVL",
         "0.06% TVL change over 7 days",
         "1 monitored chains",
-        "3.72% APY on $2,601,768 pool TVL"
+        "3.72% APY on $2,601,476 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/flux-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:2611",
+      "id": "protocol:3405",
       "kind": "protocol",
-      "name": "Balancer V2",
+      "name": "Meta Pool ETH",
       "type": "defi",
       "chain": "Ethereum",
       "score": 78,
@@ -325,20 +325,20 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Balancer V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Meta Pool ETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$26,774,192.47 TVL",
-        "7.09% TVL change over 7 days",
+        "$19,253,759.27 TVL",
+        "8.95% TVL change over 7 days",
         "1 monitored chains",
-        "1.31% APY on $11,058,815 pool TVL"
+        "0.24% APY on $21,279,985 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/balancer-v2",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/meta-pool-eth",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:4606",
+      "id": "protocol:4448",
       "kind": "protocol",
-      "name": "YieldNest",
+      "name": "Superform",
       "type": "defi",
       "chain": "Ethereum",
       "score": 78,
@@ -348,15 +348,38 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "YieldNest is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Superform is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$20,876,813.34 TVL",
-        "2.43% TVL change over 7 days",
+        "$26,532,593.39 TVL",
+        "0.46% TVL change over 7 days",
         "2 monitored chains",
-        "9.92% APY on $9,332,568 pool TVL"
+        "6.08% APY on $11,681,632 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/yieldnest",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/superform",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:5963",
+      "kind": "protocol",
+      "name": "Resupply",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 78,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Resupply is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$36,093,313.78 TVL",
+        "1.32% TVL change over 7 days",
+        "1 monitored chains",
+        "0.65% APY on $21,113,820 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/resupply",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:6024",
@@ -373,13 +396,59 @@
       },
       "summary": "Aegis YUSD is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$35,890,361.16 TVL",
-        "0.05% TVL change over 7 days",
+        "$35,918,278.47 TVL",
+        "0.02% TVL change over 7 days",
         "2 monitored chains",
-        "5.08% APY on $34,210,744 pool TVL"
+        "5.08% APY on $34,234,617 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/aegis-yusd",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:1594",
+      "kind": "protocol",
+      "name": "Symbiosis",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 77,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Symbiosis is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$9,747,559.97 TVL",
+        "8.45% TVL change over 7 days",
+        "2 monitored chains",
+        "7% APY on $1,151,243 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/symbiosis",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:2993",
+      "kind": "protocol",
+      "name": "NodeDAO",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 77,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "NodeDAO is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$26,066,343.36 TVL",
+        "1.82% TVL change over 7 days",
+        "1 monitored chains",
+        "2.42% APY on $17,453,923 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/nodedao",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:5294",
@@ -396,36 +465,36 @@
       },
       "summary": "Kyros is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$8,355,506.19 TVL",
-        "15.34% TVL change over 7 days",
+        "$8,871,655.87 TVL",
+        "14.24% TVL change over 7 days",
         "1 monitored chains",
-        "5.7% APY on $7,232,685 pool TVL"
+        "5.7% APY on $7,510,226 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/kyros",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:5963",
+      "id": "protocol:1207",
       "kind": "protocol",
-      "name": "Resupply",
+      "name": "Across",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 77,
+      "score": 76,
       "risk": {
         "level": "low",
         "reasons": [
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Resupply is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Across is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$35,736,733.98 TVL",
-        "0.35% TVL change over 7 days",
+        "$22,169,547.1 TVL",
+        "0.7% TVL change over 7 days",
         "1 monitored chains",
-        "0.65% APY on $21,113,727 pool TVL"
+        "1.4% APY on $9,454,776 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/resupply",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/across",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:1995",
@@ -442,18 +511,18 @@
       },
       "summary": "Bancor V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$17,104,540.54 TVL",
-        "3.06% TVL change over 7 days",
+        "$17,600,811.53 TVL",
+        "4.92% TVL change over 7 days",
         "1 monitored chains",
-        "0.02% APY on $12,057,259 pool TVL"
+        "0.03% APY on $12,057,259 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/bancor-v3",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:3405",
+      "id": "protocol:3499",
       "kind": "protocol",
-      "name": "Meta Pool ETH",
+      "name": "Ekubo",
       "type": "defi",
       "chain": "Ethereum",
       "score": 76,
@@ -463,15 +532,15 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Meta Pool ETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Ekubo is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$18,513,510.6 TVL",
-        "4.81% TVL change over 7 days",
+        "$23,453,078.78 TVL",
+        "1.23% TVL change over 7 days",
         "1 monitored chains",
-        "0.24% APY on $20,660,016 pool TVL"
+        "11.12% APY on $577,474 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/meta-pool-eth",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/ekubo",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7301",
@@ -488,13 +557,174 @@
       },
       "summary": "STKESOL by SOL Strategies is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$46,322,649.95 TVL",
-        "8.35% TVL change over 7 days",
+        "$48,128,192.75 TVL",
+        "10.19% TVL change over 7 days",
         "1 monitored chains",
-        "4.56% APY on $46,475,165 pool TVL"
+        "4.56% APY on $48,091,794 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/stkesol-by-sol-strategies",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:2433",
+      "kind": "protocol",
+      "name": "Inverse Finance FiRM",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 75,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Inverse Finance FiRM is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$21,045,210.41 TVL",
+        "0.06% TVL change over 7 days",
+        "1 monitored chains",
+        "7.42% APY on $5,278,100 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/inverse-finance-firm",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4088",
+      "kind": "protocol",
+      "name": "Puffer Stake",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 75,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Puffer Stake is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$49,224,079.47 TVL",
+        "5.67% TVL change over 7 days",
+        "1 monitored chains",
+        "2.29% APY on $49,609,024 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/puffer-stake",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:5280",
+      "kind": "protocol",
+      "name": "Origin ARM",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 75,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Origin ARM is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$4,812,963.06 TVL",
+        "37.72% TVL change over 7 days",
+        "1 monitored chains",
+        "3.39% APY on $4,154,983 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/origin-arm",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4078",
+      "kind": "protocol",
+      "name": "Swell Liquid Restaking",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 74,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Swell Liquid Restaking is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$25,426,807.64 TVL",
+        "8.31% TVL change over 7 days",
+        "1 monitored chains",
+        "1.78% APY on $26,116,332 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swell-liquid-restaking",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:1108",
+      "kind": "protocol",
+      "name": "Gearbox",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 73,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Gearbox is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$19,085,021.91 TVL",
+        "2.52% TVL change over 7 days",
+        "2 monitored chains",
+        "0.43% APY on $4,312,917 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/gearbox",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:2832",
+      "kind": "protocol",
+      "name": "Bedrock uniETH",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 73,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Bedrock uniETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$19,207,692.28 TVL",
+        "9.01% TVL change over 7 days",
+        "1 monitored chains",
+        "2.56% APY on $19,229,611 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bedrock-unieth",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:2950",
+      "kind": "protocol",
+      "name": "Origin Ether",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 73,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Origin Ether is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$34,744,905.02 TVL",
+        "9.26% TVL change over 7 days",
+        "1 monitored chains",
+        "2.2% APY on $77,374,032 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/origin-ether",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3871",
@@ -511,41 +741,18 @@
       },
       "summary": "Wildcat Protocol is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$7,721,463.71 TVL",
-        "3.77% TVL change over 7 days",
+        "$8,010,442.23 TVL",
+        "4.73% TVL change over 7 days",
         "1 monitored chains",
-        "8.5% APY on $3,510,899 pool TVL"
+        "8.5% APY on $2,889,950 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/wildcat-protocol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:4088",
+      "id": "protocol:2454",
       "kind": "protocol",
-      "name": "Puffer Stake",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 73,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Puffer Stake is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$47,335,372.69 TVL",
-        "1.66% TVL change over 7 days",
-        "1 monitored chains",
-        "2.29% APY on $47,709,819 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/puffer-stake",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:4078",
-      "kind": "protocol",
-      "name": "Swell Liquid Restaking",
+      "name": "GETH",
       "type": "defi",
       "chain": "Ethereum",
       "score": 72,
@@ -555,15 +762,61 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Swell Liquid Restaking is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "GETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$24,475,642.41 TVL",
-        "4.31% TVL change over 7 days",
+        "$14,005,015.54 TVL",
+        "8.86% TVL change over 7 days",
         "1 monitored chains",
-        "1.78% APY on $26,085,205 pool TVL"
+        "2.42% APY on $14,012,518 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/swell-liquid-restaking",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/geth",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:2901",
+      "kind": "protocol",
+      "name": "Swell Liquid Staking",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 72,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Swell Liquid Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$25,724,483.78 TVL",
+        "4.32% TVL change over 7 days",
+        "1 monitored chains",
+        "2.8% APY on $28,896,896 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/swell-liquid-staking",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6648",
+      "kind": "protocol",
+      "name": "Hylo LSTs",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 72,
+      "risk": {
+        "level": "low",
+        "reasons": [
+          "协议规模与收益证据较完整，暂未发现明显异常信号"
+        ]
+      },
+      "summary": "Hylo LSTs is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$14,472,155.52 TVL",
+        "9.31% TVL change over 7 days",
+        "1 monitored chains",
+        "6.08% APY on $13,674,069 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/hylo-lsts",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:1738",
@@ -580,59 +833,13 @@
       },
       "summary": "Bifrost Liquid Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$17,691,053.48 TVL",
-        "4.76% TVL change over 7 days",
+        "$17,884,016.47 TVL",
+        "5.12% TVL change over 7 days",
         "1 monitored chains",
-        "3.26% APY on $1,082,085 pool TVL"
+        "3.1% APY on $1,112,748 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/bifrost-liquid-staking",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2832",
-      "kind": "protocol",
-      "name": "Bedrock uniETH",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 71,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Bedrock uniETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$18,483,824.8 TVL",
-        "4.95% TVL change over 7 days",
-        "1 monitored chains",
-        "2.56% APY on $18,645,169 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/bedrock-unieth",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2901",
-      "kind": "protocol",
-      "name": "Swell Liquid Staking",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 71,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Swell Liquid Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$24,757,057.19 TVL",
-        "0.97% TVL change over 7 days",
-        "1 monitored chains",
-        "2.8% APY on $28,021,315 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/swell-liquid-staking",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:4994",
@@ -649,13 +856,13 @@
       },
       "summary": "Bonk Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$10,061,224.65 TVL",
-        "9.67% TVL change over 7 days",
+        "$10,436,390.02 TVL",
+        "11.73% TVL change over 7 days",
         "1 monitored chains",
-        "5.55% APY on $10,091,416 pool TVL"
+        "5.55% APY on $10,484,579 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/bonk-staked-sol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:5129",
@@ -672,19 +879,19 @@
       },
       "summary": "Predict Fun is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$18,969,261.24 TVL",
-        "76.11% TVL change over 7 days",
+        "$20,001,966.63 TVL",
+        "81.06% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/predict-fun",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:6648",
+      "id": "protocol:6905",
       "kind": "protocol",
-      "name": "Hylo LSTs",
+      "name": "Avant avETH",
       "type": "defi",
-      "chain": "Solana",
+      "chain": "Ethereum",
       "score": 71,
       "risk": {
         "level": "low",
@@ -692,22 +899,22 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Hylo LSTs is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Avant avETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$13,944,939.46 TVL",
-        "6.53% TVL change over 7 days",
+        "$12,883,266.92 TVL",
+        "9.09% TVL change over 7 days",
         "1 monitored chains",
-        "6.08% APY on $13,164,730 pool TVL"
+        "5.54% APY on $11,093,578 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/hylo-lsts",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/avant-aveth",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:2454",
+      "id": "protocol:3570",
       "kind": "protocol",
-      "name": "GETH",
+      "name": "marginfi LST",
       "type": "defi",
-      "chain": "Ethereum",
+      "chain": "Solana",
       "score": 70,
       "risk": {
         "level": "low",
@@ -715,38 +922,15 @@
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "GETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "marginfi LST is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$13,477,217.86 TVL",
-        "4.81% TVL change over 7 days",
+        "$7,013,519.12 TVL",
+        "12.52% TVL change over 7 days",
         "1 monitored chains",
-        "2.42% APY on $13,604,301 pool TVL"
+        "5.84% APY on $7,036,323 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/geth",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2950",
-      "kind": "protocol",
-      "name": "Origin Ether",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 70,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Origin Ether is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$32,662,064.26 TVL",
-        "2.11% TVL change over 7 days",
-        "1 monitored chains",
-        "2.18% APY on $76,114,194 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/origin-ether",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/marginfi-lst",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:385",
@@ -763,35 +947,35 @@
       },
       "summary": "Meteora DAMM V1 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$25,278,322.83 TVL",
-        "42.61% TVL change over 7 days",
+        "$25,513,985.16 TVL",
+        "43.16% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/meteora-damm-v1",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:6905",
+      "id": "protocol:112",
       "kind": "protocol",
-      "name": "Avant avETH",
+      "name": "Harvest Finance",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 70,
+      "score": 69,
       "risk": {
         "level": "low",
         "reasons": [
           "协议规模与收益证据较完整，暂未发现明显异常信号"
         ]
       },
-      "summary": "Avant avETH is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Harvest Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$12,397,743.83 TVL",
-        "5.03% TVL change over 7 days",
+        "$11,807,906.3 TVL",
+        "1.92% TVL change over 7 days",
         "1 monitored chains",
-        "5.54% APY on $10,787,891 pool TVL"
+        "7.48% APY on $1,128,879 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/avant-aveth",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/harvest-finance",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3083",
@@ -808,36 +992,13 @@
       },
       "summary": "Penpie is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$7,108,089.43 TVL",
-        "3.42% TVL change over 7 days",
+        "$7,188,038.81 TVL",
+        "3.31% TVL change over 7 days",
         "2 monitored chains",
-        "17.04% APY on $948,769 pool TVL"
+        "17.13% APY on $948,817 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/penpie",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3570",
-      "kind": "protocol",
-      "name": "marginfi LST",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 69,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "marginfi LST is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$6,761,220.56 TVL",
-        "8.74% TVL change over 7 days",
-        "1 monitored chains",
-        "5.84% APY on $6,768,554 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/marginfi-lst",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:427",
@@ -854,36 +1015,13 @@
       },
       "summary": "Origin Dollar is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$7,374,495.54 TVL",
-        "15.79% TVL change over 7 days",
+        "$7,383,263.17 TVL",
+        "15.9% TVL change over 7 days",
         "1 monitored chains",
-        "4.38% APY on $7,369,152 pool TVL"
+        "4.38% APY on $7,372,584 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/origin-dollar",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:112",
-      "kind": "protocol",
-      "name": "Harvest Finance",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 68,
-      "risk": {
-        "level": "low",
-        "reasons": [
-          "协议规模与收益证据较完整，暂未发现明显异常信号"
-        ]
-      },
-      "summary": "Harvest Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$11,617,687.14 TVL",
-        "0.55% TVL change over 7 days",
-        "1 monitored chains",
-        "6.78% APY on $1,128,826 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/harvest-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7329",
@@ -891,7 +1029,7 @@
       "name": "Fira",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 68,
+      "score": 69,
       "risk": {
         "level": "low",
         "reasons": [
@@ -900,13 +1038,82 @@
       },
       "summary": "Fira is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$8,156,392.17 TVL",
-        "1.96% TVL change over 7 days",
+        "$8,384,768.99 TVL",
+        "5.25% TVL change over 7 days",
         "1 monitored chains",
-        "1.86% APY on $7,335,012 pool TVL"
+        "1.8% APY on $7,554,687 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/fira",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6085",
+      "kind": "protocol",
+      "name": "Save SOL",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 68,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Save SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$4,002,310.33 TVL",
+        "12.52% TVL change over 7 days",
+        "1 monitored chains",
+        "4.81% APY on $4,004,949 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/save-sol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6460",
+      "kind": "protocol",
+      "name": "Laine SOL",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 68,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Laine SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$4,154,273.75 TVL",
+        "12.37% TVL change over 7 days",
+        "1 monitored chains",
+        "4.78% APY on $4,159,626 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/laine-sol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6471",
+      "kind": "protocol",
+      "name": "Stronghold Staked SOL",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 68,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Stronghold Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$3,825,606.6 TVL",
+        "11.96% TVL change over 7 days",
+        "1 monitored chains",
+        "5.45% APY on $3,820,300 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/stronghold-staked-sol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:1700",
@@ -923,82 +1130,13 @@
       },
       "summary": "Wombat Exchange is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,455,826.38 TVL",
-        "1.61% TVL change over 7 days",
+        "$1,467,202.87 TVL",
+        "1.72% TVL change over 7 days",
         "2 monitored chains",
         "0.02% APY on $3,103,996 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/wombat-exchange",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6085",
-      "kind": "protocol",
-      "name": "Save SOL",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 67,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Save SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$3,858,337.42 TVL",
-        "8.73% TVL change over 7 days",
-        "1 monitored chains",
-        "4.81% APY on $3,871,041 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/save-sol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6460",
-      "kind": "protocol",
-      "name": "Laine SOL",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 67,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Laine SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$4,004,940.12 TVL",
-        "8.7% TVL change over 7 days",
-        "1 monitored chains",
-        "4.78% APY on $4,020,593 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/laine-sol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6471",
-      "kind": "protocol",
-      "name": "Stronghold Staked SOL",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 67,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Stronghold Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$3,688,085.97 TVL",
-        "8.31% TVL change over 7 days",
-        "1 monitored chains",
-        "5.45% APY on $3,661,186 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/stronghold-staked-sol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3171",
@@ -1006,7 +1144,7 @@
       "name": "Kinza Finance",
       "type": "defi",
       "chain": "BNB Chain",
-      "score": 66,
+      "score": 67,
       "risk": {
         "level": "medium",
         "reasons": [
@@ -1015,13 +1153,36 @@
       },
       "summary": "Kinza Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$3,547,237.96 TVL",
-        "1.87% TVL change over 7 days",
+        "$3,577,759.88 TVL",
+        "1.99% TVL change over 7 days",
         "2 monitored chains",
-        "0.18% APY on $1,557,645 pool TVL"
+        "0.18% APY on $1,551,729 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/kinza-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:3912",
+      "kind": "protocol",
+      "name": "Dinero (pxETH)",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 67,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Dinero (pxETH) is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$4,266,145.66 TVL",
+        "7.52% TVL change over 7 days",
+        "1 monitored chains",
+        "3.33% APY on $3,241,117 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dinero-(pxeth)",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:334",
@@ -1038,36 +1199,13 @@
       },
       "summary": "MDEX is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,313,728.77 TVL",
-        "1.87% TVL change over 7 days",
+        "$1,321,045.17 TVL",
+        "2.03% TVL change over 7 days",
         "1 monitored chains",
         "0.03% APY on $7,505,996 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/mdex",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3912",
-      "kind": "protocol",
-      "name": "Dinero (pxETH)",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 66,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Dinero (pxETH) is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$4,105,370.27 TVL",
-        "3.52% TVL change over 7 days",
-        "1 monitored chains",
-        "3.33% APY on $3,146,696 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/dinero-(pxeth)",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:5768",
@@ -1085,12 +1223,102 @@
       },
       "summary": "Arkis is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$7,607,350.56 TVL",
-        "200.63% TVL change over 7 days",
+        "$8,218,952.58 TVL",
+        "224.8% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/arkis",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:7750",
+      "kind": "protocol",
+      "name": "Flying Tulip Lend",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 66,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Flying Tulip Lend is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$5,006,570.66 TVL",
+        "70.7% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/flying-tulip-lend",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:7464",
+      "kind": "protocol",
+      "name": "Usual ETH0",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 65,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Usual ETH0 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$4,407,838.4 TVL",
+        "8.56% TVL change over 7 days",
+        "1 monitored chains",
+        "2.56% APY on $4,043,298 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/usual-eth0",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4223",
+      "kind": "protocol",
+      "name": "Ring Few",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 64,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Ring Few is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$29,782,687.56 TVL",
+        "17.79% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/ring-few",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:5814",
+      "kind": "protocol",
+      "name": "Pico Staked SOL",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 64,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Pico Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$1,694,367.72 TVL",
+        "10.05% TVL change over 7 days",
+        "1 monitored chains",
+        "5.83% APY on $1,682,075 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/pico-staked-sol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:6864",
@@ -1107,36 +1335,13 @@
       },
       "summary": "mStable V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$3,371,426.86 TVL",
-        "0.64% TVL change over 7 days",
+        "$3,369,950 TVL",
+        "0.62% TVL change over 7 days",
         "1 monitored chains",
-        "13.05% APY on $3,360,123 pool TVL"
+        "12% APY on $3,360,183 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/mstable-v2",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:7464",
-      "kind": "protocol",
-      "name": "Usual ETH0",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 64,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Usual ETH0 is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$4,199,378.02 TVL",
-        "4.45% TVL change over 7 days",
-        "1 monitored chains",
-        "2.64% APY on $3,920,660 pool TVL"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/usual-eth0",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7425",
@@ -1153,42 +1358,19 @@
       },
       "summary": "Royco V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$19,871,973.72 TVL",
-        "25.41% TVL change over 7 days",
+        "$19,836,929.25 TVL",
+        "24.6% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/royco-v2",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:7750",
+      "id": "protocol:1864",
       "kind": "protocol",
-      "name": "Flying Tulip Lend",
+      "name": "Team Finance",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 63,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据",
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "Flying Tulip Lend is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$4,117,727.34 TVL",
-        "40.55% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/flying-tulip-lend",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:4922",
-      "kind": "protocol",
-      "name": "PumpBTC",
-      "type": "defi",
-      "chain": "BNB Chain",
       "score": 62,
       "risk": {
         "level": "medium",
@@ -1196,19 +1378,108 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "PumpBTC is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Team Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$49,490,130.13 TVL",
-        "4.88% TVL change over 7 days",
+        "$48,611,645.82 TVL",
+        "6.13% TVL change over 7 days",
         "2 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/pumpbtc",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/team-finance",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:5814",
+      "id": "protocol:2428",
       "kind": "protocol",
-      "name": "Pico Staked SOL",
+      "name": "Metronome Synth",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 62,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Metronome Synth is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$23,442,521.06 TVL",
+        "21.05% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/metronome-synth",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:3388",
+      "kind": "protocol",
+      "name": "Sanctum Reserve",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 62,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Sanctum Reserve is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$46,633,082.39 TVL",
+        "12.46% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/sanctum-reserve",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4602",
+      "kind": "protocol",
+      "name": "vfat.io",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 62,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "vfat.io is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$29,755,053.84 TVL",
+        "10.79% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/vfat.io",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:641",
+      "kind": "protocol",
+      "name": "Arrakis V1",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 62,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "协议TVL规模仍有限"
+        ]
+      },
+      "summary": "Arrakis V1 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$1,390,330.25 TVL",
+        "2.73% TVL change over 7 days",
+        "1 monitored chains",
+        "0.58% APY on $556,856 pool TVL"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/arrakis-v1",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:7313",
+      "kind": "protocol",
+      "name": "Lantern Staked SOL",
       "type": "defi",
       "chain": "Solana",
       "score": 62,
@@ -1218,15 +1489,15 @@
           "协议TVL规模仍有限"
         ]
       },
-      "summary": "Pico Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Lantern Staked SOL is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,573,563.75 TVL",
-        "3.14% TVL change over 7 days",
+        "$1,999,754.22 TVL",
+        "1.17% TVL change over 7 days",
         "1 monitored chains",
-        "5.83% APY on $1,563,894 pool TVL"
+        "5.81% APY on $2,006,482 pool TVL"
       ],
-      "sourceUrl": "https://defillama.com/protocol/pico-staked-sol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/lantern-staked-sol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7960",
@@ -1244,61 +1515,17 @@
       },
       "summary": "Cassa is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,477,542.48 TVL",
-        "62.12% TVL change over 7 days",
+        "$1,456,327 TVL",
+        "59.52% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/cassa",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:1864",
+      "id": "protocol:2570",
       "kind": "protocol",
-      "name": "Team Finance",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 61,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Team Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$47,217,821.87 TVL",
-        "4.65% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/team-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2428",
-      "kind": "protocol",
-      "name": "Metronome Synth",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 61,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Metronome Synth is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$22,506,177.6 TVL",
-        "16.58% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/metronome-synth",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3388",
-      "kind": "protocol",
-      "name": "Sanctum Reserve",
+      "name": "marginfi Lending",
       "type": "defi",
       "chain": "Solana",
       "score": 61,
@@ -1308,19 +1535,19 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "Sanctum Reserve is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "marginfi Lending is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$44,956,073.25 TVL",
-        "9.69% TVL change over 7 days",
+        "$32,552,597.56 TVL",
+        "12.08% TVL change over 7 days",
         "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/sanctum-reserve",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/marginfi-lending",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:4602",
+      "id": "protocol:5143",
       "kind": "protocol",
-      "name": "vfat.io",
+      "name": "Lombard Vaults",
       "type": "defi",
       "chain": "Ethereum",
       "score": 61,
@@ -1330,37 +1557,81 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "vfat.io is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Lombard Vaults is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$28,445,692.41 TVL",
-        "7.35% TVL change over 7 days",
+        "$44,463,897.97 TVL",
+        "1.99% TVL change over 7 days",
         "2 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/vfat.io",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/lombard-vaults",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:641",
+      "id": "protocol:5899",
       "kind": "protocol",
-      "name": "Arrakis V1",
+      "name": "Bitbond Lockers",
+      "type": "defi",
+      "chain": "BNB Chain",
+      "score": 61,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Bitbond Lockers is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$9,285,731.49 TVL",
+        "22.59% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6213",
+      "kind": "protocol",
+      "name": "Tulipa Capital",
       "type": "defi",
       "chain": "Ethereum",
       "score": 61,
       "risk": {
         "level": "medium",
         "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Tulipa Capital is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$43,605,309.83 TVL",
+        "3.85% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/tulipa-capital",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:6760",
+      "kind": "protocol",
+      "name": "DefiTuna Liquidity",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 61,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据",
           "协议TVL规模仍有限"
         ]
       },
-      "summary": "Arrakis V1 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "DefiTuna Liquidity is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,374,784.77 TVL",
-        "1.59% TVL change over 7 days",
-        "1 monitored chains",
-        "0.58% APY on $556,900 pool TVL"
+        "$1,248,632.67 TVL",
+        "67.88% TVL change over 7 days",
+        "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/arrakis-v1",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/defituna-liquidity",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:693",
@@ -1377,19 +1648,19 @@
       },
       "summary": "Superfluid is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$5,179,127.36 TVL",
-        "25.78% TVL change over 7 days",
+        "$5,204,750.24 TVL",
+        "26.71% TVL change over 7 days",
         "2 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/superfluid",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:2081",
       "kind": "protocol",
       "name": "Wan Bridge",
       "type": "defi",
-      "chain": "Ethereum",
+      "chain": "BNB Chain",
       "score": 60,
       "risk": {
         "level": "medium",
@@ -1399,12 +1670,34 @@
       },
       "summary": "Wan Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$24,768,401.9 TVL",
-        "4.06% TVL change over 7 days",
+        "$24,865,008.73 TVL",
+        "4.04% TVL change over 7 days",
         "3 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/wan-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:217",
+      "kind": "protocol",
+      "name": "Connext",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 60,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Connext is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$24,870,855.42 TVL",
+        "8.36% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/connext",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:2223",
@@ -1421,12 +1714,12 @@
       },
       "summary": "Meteora vaults is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$41,851,923.29 TVL",
-        "6.17% TVL change over 7 days",
+        "$42,978,616.18 TVL",
+        "8.09% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/meteora-vaults",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:2264",
@@ -1443,34 +1736,12 @@
       },
       "summary": "Orderly Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$23,663,302.43 TVL",
-        "2.79% TVL change over 7 days",
+        "$24,321,140.96 TVL",
+        "5.76% TVL change over 7 days",
         "3 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/orderly-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3783",
-      "kind": "protocol",
-      "name": "Metis Bridge",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 60,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Metis Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$27,978,191.72 TVL",
-        "12.84% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/metis-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3944",
@@ -1487,12 +1758,12 @@
       },
       "summary": "Allbridge Core is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$20,848,942.59 TVL",
-        "5.28% TVL change over 7 days",
+        "$20,787,264.05 TVL",
+        "5.29% TVL change over 7 days",
         "3 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/allbridge-core",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:4058",
@@ -1509,17 +1780,17 @@
       },
       "summary": "Brickken is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$42,205,590.4 TVL",
-        "0.01% TVL change over 7 days",
+        "$42,204,865.41 TVL",
+        "0% TVL change over 7 days",
         "2 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/brickken",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:5143",
+      "id": "protocol:4238",
       "kind": "protocol",
-      "name": "Lombard Vaults",
+      "name": "Zircuit Staking",
       "type": "defi",
       "chain": "Ethereum",
       "score": 60,
@@ -1529,36 +1800,14 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "Lombard Vaults is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Zircuit Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$44,054,213.8 TVL",
-        "1.39% TVL change over 7 days",
-        "2 monitored chains"
+        "$45,646,745.23 TVL",
+        "5.96% TVL change over 7 days",
+        "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/lombard-vaults",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6213",
-      "kind": "protocol",
-      "name": "Tulipa Capital",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 60,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Tulipa Capital is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$42,750,732.29 TVL",
-        "2% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/tulipa-capital",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/zircuit-staking",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:6570",
@@ -1575,12 +1824,12 @@
       },
       "summary": "Templar Protocol is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$27,438,051.84 TVL",
-        "6.6% TVL change over 7 days",
+        "$27,681,721.49 TVL",
+        "5.49% TVL change over 7 days",
         "2 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/templar-protocol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7759",
@@ -1600,15 +1849,15 @@
         "$2,274,801.61 TVL",
         "0.87% TVL change over 7 days",
         "1 monitored chains",
-        "2.78% APY on $1,617,946 pool TVL"
+        "2.75% APY on $1,616,515 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/flying-tulip-ftusd",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:217",
+      "id": "protocol:1025",
       "kind": "protocol",
-      "name": "Connext",
+      "name": "Wrapped",
       "type": "defi",
       "chain": "Ethereum",
       "score": 59,
@@ -1618,21 +1867,21 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "Connext is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Wrapped is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$23,781,495.46 TVL",
-        "4.71% TVL change over 7 days",
-        "2 monitored chains"
+        "$22,993,602.13 TVL",
+        "9.93% TVL change over 7 days",
+        "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/connext",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/wrapped",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:2570",
+      "id": "protocol:3043",
       "kind": "protocol",
-      "name": "marginfi Lending",
+      "name": "Steer Protocol",
       "type": "defi",
-      "chain": "Solana",
+      "chain": "BNB Chain",
       "score": 59,
       "risk": {
         "level": "medium",
@@ -1640,14 +1889,58 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "marginfi Lending is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Steer Protocol is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$31,070,910.22 TVL",
-        "8.72% TVL change over 7 days",
+        "$18,381,324.49 TVL",
+        "5.97% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/steer-protocol",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:3783",
+      "kind": "protocol",
+      "name": "Metis Bridge",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 59,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Metis Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$27,475,853.09 TVL",
+        "10.28% TVL change over 7 days",
         "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/marginfi-lending",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/metis-bridge",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:3786",
+      "kind": "protocol",
+      "name": "Scroll Bridge",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 59,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Scroll Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$36,082,452.54 TVL",
+        "5.3% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/scroll-bridge",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3960",
@@ -1664,18 +1957,18 @@
       },
       "summary": "LandX Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,775,202.65 TVL",
-        "0.06% TVL change over 7 days",
+        "$1,775,246.22 TVL",
+        "0.07% TVL change over 7 days",
         "1 monitored chains",
-        "9.41% APY on $643,795 pool TVL"
+        "9.41% APY on $643,831 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/landx-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:4223",
+      "id": "protocol:4702",
       "kind": "protocol",
-      "name": "Ring Few",
+      "name": "Immutable zkEVM",
       "type": "defi",
       "chain": "Ethereum",
       "score": 59,
@@ -1685,14 +1978,14 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "Ring Few is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "Immutable zkEVM is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$26,017,082.08 TVL",
-        "3.34% TVL change over 7 days",
-        "2 monitored chains"
+        "$27,199,418.58 TVL",
+        "9.12% TVL change over 7 days",
+        "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/ring-few",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/immutable-zkevm",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:4725",
@@ -1709,19 +2002,19 @@
       },
       "summary": "Spectra V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$32,124,983.8 TVL",
-        "0.49% TVL change over 7 days",
+        "$32,651,695.17 TVL",
+        "1.31% TVL change over 7 days",
         "2 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/spectra-v2",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
-      "id": "protocol:5899",
+      "id": "protocol:5232",
       "kind": "protocol",
-      "name": "Bitbond Lockers",
+      "name": "SuiBridge",
       "type": "defi",
-      "chain": "BNB Chain",
+      "chain": "Ethereum",
       "score": 59,
       "risk": {
         "level": "medium",
@@ -1729,14 +2022,58 @@
           "缺少匹配的收益池证据"
         ]
       },
-      "summary": "Bitbond Lockers is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "summary": "SuiBridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$8,913,585.9 TVL",
-        "15.31% TVL change over 7 days",
-        "2 monitored chains"
+        "$35,367,275.36 TVL",
+        "5.6% TVL change over 7 days",
+        "1 monitored chains"
       ],
-      "sourceUrl": "https://defillama.com/protocol/bitbond-lockers",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "sourceUrl": "https://defillama.com/protocol/suibridge",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:5691",
+      "kind": "protocol",
+      "name": "Abstract",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 59,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Abstract is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$29,131,897.57 TVL",
+        "8.7% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/abstract",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:5996",
+      "kind": "protocol",
+      "name": "Jito Restaking",
+      "type": "defi",
+      "chain": "Solana",
+      "score": 59,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Jito Restaking is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$17,460,256.73 TVL",
+        "13.77% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/jito-restaking",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:7254",
@@ -1753,13 +2090,101 @@
       },
       "summary": "Lazy is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$1,019,409.13 TVL",
-        "0.19% TVL change over 7 days",
+        "$1,019,483.95 TVL",
+        "0.21% TVL change over 7 days",
         "1 monitored chains",
         "8.2% APY on $1,019,704 pool TVL"
       ],
       "sourceUrl": "https://defillama.com/protocol/lazy",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:7749",
+      "kind": "protocol",
+      "name": "Alchemix V3",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 59,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Alchemix V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$32,022,745.79 TVL",
+        "7.29% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/alchemix-v3",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:144",
+      "kind": "protocol",
+      "name": "dYdX V3",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 58,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "dYdX V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$38,842,444.84 TVL",
+        "0.66% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dydx-v3",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:1901",
+      "kind": "protocol",
+      "name": "DxSale",
+      "type": "defi",
+      "chain": "BNB Chain",
+      "score": 58,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "DxSale is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$18,686,256.31 TVL",
+        "3.18% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/dxsale",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:1981",
+      "kind": "protocol",
+      "name": "Orbit Bridge",
+      "type": "defi",
+      "chain": "BNB Chain",
+      "score": 58,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Orbit Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$16,426,664.48 TVL",
+        "5.05% TVL change over 7 days",
+        "2 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/orbit-bridge",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:2231",
@@ -1776,431 +2201,12 @@
       },
       "summary": "Tangible RWA is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$42,049,944.05 TVL",
-        "0.39% TVL change over 7 days",
+        "$42,053,798.6 TVL",
+        "0.53% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/tangible-rwa",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3043",
-      "kind": "protocol",
-      "name": "Steer Protocol",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Steer Protocol is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$18,043,122.65 TVL",
-        "4.66% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/steer-protocol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3786",
-      "kind": "protocol",
-      "name": "Scroll Bridge",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Scroll Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$35,370,238.45 TVL",
-        "3.08% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/scroll-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:4238",
-      "kind": "protocol",
-      "name": "Zircuit Staking",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Zircuit Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$43,544,641.81 TVL",
-        "1.84% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/zircuit-staking",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:4702",
-      "kind": "protocol",
-      "name": "Immutable zkEVM",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Immutable zkEVM is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$26,664,848.52 TVL",
-        "7.59% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/immutable-zkevm",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:5232",
-      "kind": "protocol",
-      "name": "SuiBridge",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "SuiBridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$35,507,455.07 TVL",
-        "3.53% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/suibridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:5691",
-      "kind": "protocol",
-      "name": "Abstract",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Abstract is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$28,113,860.62 TVL",
-        "4.4% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/abstract",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:5762",
-      "kind": "protocol",
-      "name": "Zoo Finance",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Zoo Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$31,036,683.12 TVL",
-        "5.37% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/zoo-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6284",
-      "kind": "protocol",
-      "name": "AO Bridge",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "AO Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$44,773,535.24 TVL",
-        "0.46% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/ao-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6288",
-      "kind": "protocol",
-      "name": "Meteora DAMM V2",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Meteora DAMM V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$30,509,714.45 TVL",
-        "3.64% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/meteora-damm-v2",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6493",
-      "kind": "protocol",
-      "name": "Hylo Protocol",
-      "type": "defi",
-      "chain": "Solana",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Hylo Protocol is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$17,645,724.99 TVL",
-        "10.97% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/hylo-protocol",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:6966",
-      "kind": "protocol",
-      "name": "TurboFlow",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据",
-          "协议TVL规模仍有限"
-        ]
-      },
-      "summary": "TurboFlow is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$1,969,819.4 TVL",
-        "28.69% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/turboflow",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:7749",
-      "kind": "protocol",
-      "name": "Alchemix V3",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 58,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Alchemix V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$31,113,675.79 TVL",
-        "4.69% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/alchemix-v3",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:1025",
-      "kind": "protocol",
-      "name": "Wrapped",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Wrapped is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$21,888,135.03 TVL",
-        "6.17% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/wrapped",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:144",
-      "kind": "protocol",
-      "name": "dYdX V3",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "dYdX V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$38,726,232.98 TVL",
-        "0.35% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/dydx-v3",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:146",
-      "kind": "protocol",
-      "name": "DODO AMM",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "DODO AMM is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$11,836,241.76 TVL",
-        "6.65% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/dodo-amm",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:1901",
-      "kind": "protocol",
-      "name": "DxSale",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "DxSale is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$18,465,463.78 TVL",
-        "2.49% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/dxsale",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:1981",
-      "kind": "protocol",
-      "name": "Orbit Bridge",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Orbit Bridge is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$16,034,635.94 TVL",
-        "3.33% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/orbit-bridge",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2402",
-      "kind": "protocol",
-      "name": "Veno Finance",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Veno Finance is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$37,908,625.28 TVL",
-        "0.19% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/veno-finance",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:2529",
-      "kind": "protocol",
-      "name": "PancakeSwap StableSwap",
-      "type": "defi",
-      "chain": "BNB Chain",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "PancakeSwap StableSwap is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$16,757,605.65 TVL",
-        "0.43% TVL change over 7 days",
-        "2 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/pancakeswap-stableswap",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:3091",
@@ -2208,7 +2214,7 @@
       "name": "Equilibria",
       "type": "defi",
       "chain": "Ethereum",
-      "score": 57,
+      "score": 58,
       "risk": {
         "level": "medium",
         "reasons": [
@@ -2217,56 +2223,12 @@
       },
       "summary": "Equilibria is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$10,847,671.05 TVL",
-        "7.35% TVL change over 7 days",
+        "$10,973,972.74 TVL",
+        "8.54% TVL change over 7 days",
         "2 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/equilibria",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:3948",
-      "kind": "protocol",
-      "name": "Chain Fusion",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Chain Fusion is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$19,197,894.42 TVL",
-        "7.45% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/chain-fusion",
-      "observedAt": "2026-06-15T13:49:29.359Z"
-    },
-    {
-      "id": "protocol:4032",
-      "kind": "protocol",
-      "name": "Manta Pacific",
-      "type": "defi",
-      "chain": "Ethereum",
-      "score": 57,
-      "risk": {
-        "level": "medium",
-        "reasons": [
-          "缺少匹配的收益池证据"
-        ]
-      },
-      "summary": "Manta Pacific is a growing DeFi protocol with verifiable TVL and yield evidence.",
-      "evidence": [
-        "$22,024,703.2 TVL",
-        "6.24% TVL change over 7 days",
-        "1 monitored chains"
-      ],
-      "sourceUrl": "https://defillama.com/protocol/manta-pacific",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
     },
     {
       "id": "protocol:4158",
@@ -2274,7 +2236,7 @@
       "name": "Crypto.com Liquid Staking",
       "type": "defi",
       "chain": "Solana",
-      "score": 57,
+      "score": 58,
       "risk": {
         "level": "medium",
         "reasons": [
@@ -2283,12 +2245,56 @@
       },
       "summary": "Crypto.com Liquid Staking is a growing DeFi protocol with verifiable TVL and yield evidence.",
       "evidence": [
-        "$21,240,354.61 TVL",
-        "4.92% TVL change over 7 days",
+        "$22,249,872.13 TVL",
+        "9.04% TVL change over 7 days",
         "1 monitored chains"
       ],
       "sourceUrl": "https://defillama.com/protocol/crypto.com-liquid-staking",
-      "observedAt": "2026-06-15T13:49:29.359Z"
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4323",
+      "kind": "protocol",
+      "name": "Aera V2",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 58,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Aera V2 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$35,908,474.71 TVL",
+        "2.24% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/aera-v2",
+      "observedAt": "2026-06-15T19:40:28.163Z"
+    },
+    {
+      "id": "protocol:4446",
+      "kind": "protocol",
+      "name": "Synthetix V3",
+      "type": "defi",
+      "chain": "Ethereum",
+      "score": 58,
+      "risk": {
+        "level": "medium",
+        "reasons": [
+          "缺少匹配的收益池证据"
+        ]
+      },
+      "summary": "Synthetix V3 is a growing DeFi protocol with verifiable TVL and yield evidence.",
+      "evidence": [
+        "$34,503,912.89 TVL",
+        "3.93% TVL change over 7 days",
+        "1 monitored chains"
+      ],
+      "sourceUrl": "https://defillama.com/protocol/synthetix-v3",
+      "observedAt": "2026-06-15T19:40:28.163Z"
     }
   ]
 }
