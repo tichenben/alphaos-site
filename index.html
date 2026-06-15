@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=2" />
   </head>
   <body>
     <div class="ambient ambient-one"></div>
@@ -29,12 +29,11 @@
       </a>
       <nav aria-label="主导航">
         <a href="#opportunities">机会</a>
+        <a href="#news">快讯</a>
         <a href="#agents">Agents</a>
         <a href="#method">方法论</a>
       </nav>
-      <a class="terminal-link" href="https://github.com/tichenben/alphaos" target="_blank" rel="noreferrer">
-        OPEN SOURCE <span>↗</span>
-      </a>
+      <span class="terminal-link">LIVE DATA <span>●</span></span>
     </header>
 
     <main>
@@ -70,17 +69,17 @@
             <div class="signal-meta">
               <div><span>CHAINS</span><strong>03</strong></div>
               <div><span>SIGNALS</span><strong id="signal-count">12</strong></div>
-              <div><span>UPDATED</span><strong>UTC+8</strong></div>
+              <div><span>UPDATED</span><strong id="updated-at">--</strong></div>
             </div>
           </div>
         </div>
       </section>
 
       <section class="ticker" aria-label="监控状态">
-        <div>ETHEREUM <span>● ACTIVE</span></div>
-        <div>SOLANA <span>● ACTIVE</span></div>
-        <div>BNB CHAIN <span>● ACTIVE</span></div>
-        <div>DATA MODE <span>DEMO</span></div>
+        <div>ETHEREUM <span id="status-ethereum">● CHECKING</span></div>
+        <div>SOLANA <span id="status-solana">● CHECKING</span></div>
+        <div>BNB CHAIN <span id="status-bsc">● CHECKING</span></div>
+        <div>DATA MODE <span id="data-mode">LIVE</span></div>
       </section>
 
       <section class="opportunities" id="opportunities">
@@ -95,8 +94,7 @@
         <div class="filters" role="group" aria-label="机会类型筛选">
           <button class="filter active" data-filter="all">全部信号</button>
           <button class="filter" data-filter="early">早期项目</button>
-          <button class="filter" data-filter="whale">Smart Money</button>
-          <button class="filter" data-filter="defi">DeFi 收益</button>
+          <button class="filter" data-filter="defi">DeFi 协议</button>
         </div>
 
         <div class="opportunity-list" id="opportunity-list">
@@ -104,10 +102,20 @@
         </div>
       </section>
 
+      <section class="opportunities" id="news">
+        <div class="section-heading">
+          <div><span class="section-index">02</span><h2>链上快讯</h2></div>
+          <p>人工审核后发布，保留原始来源与发布时间。</p>
+        </div>
+        <div class="opportunity-list" id="news-list">
+          <div class="loading-state">LOADING NEWS...</div>
+        </div>
+      </section>
+
       <section class="agents" id="agents">
         <div class="section-heading">
           <div>
-            <span class="section-index">02</span>
+            <span class="section-index">03</span>
             <h2>研究 Agent</h2>
           </div>
           <p>首版为规则驱动研究框架，数据验证完成后逐步接入自动分析。</p>
@@ -139,7 +147,7 @@
 
       <section class="method" id="method">
         <div>
-          <span class="section-index">03 / METHODOLOGY</span>
+          <span class="section-index">04 / METHODOLOGY</span>
           <h2>每个结论，都应该<br />可以被追溯和证伪。</h2>
         </div>
         <div class="method-list">
@@ -157,6 +165,6 @@
       <span>© <span id="year"></span> ALPHAOS</span>
     </footer>
 
-    <script src="./app.js" defer></script>
+    <script src="./app.js?v=2" defer></script>
   </body>
 </html>
