@@ -15,7 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=2" />
+    <script type="module" crossorigin src="/alphaos-site/assets/index-kilW3H5T.js"></script>
+    <link rel="modulepreload" crossorigin href="/alphaos-site/assets/preload-helper-D1z3TZ1o.js">
+    <link rel="stylesheet" crossorigin href="/alphaos-site/assets/index-KfrcBOR-.css">
   </head>
   <body>
     <div class="ambient ambient-one"></div>
@@ -33,7 +35,9 @@
         <a href="#agents">Agents</a>
         <a href="#method">方法论</a>
       </nav>
-      <span class="terminal-link">LIVE DATA <span>●</span></span>
+      <button class="terminal-link wallet-button" id="wallet-button" data-action="open-wallet" type="button">
+        连接钱包 <span>●</span>
+      </button>
     </header>
 
     <main>
@@ -165,6 +169,19 @@
       <span>© <span id="year"></span> ALPHAOS</span>
     </footer>
 
-    <script src="./app.js?v=2" defer></script>
+    <div class="social-dock" aria-label="社群与推广">
+      <a href="https://x.com/damohaihai" target="_blank" rel="noopener noreferrer">X</a>
+      <a href="https://t.me/+H2kV-mnw_Yg0NmI1" target="_blank" rel="noopener noreferrer">TG</a>
+      <button type="button" data-action="copy-referral">推广链接</button>
+    </div>
+
+    <div class="member-modal" id="member-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="member-modal-panel">
+        <button class="modal-close" id="modal-close" type="button" aria-label="关闭">×</button>
+        <div id="member-modal-body"></div>
+      </div>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   </body>
 </html>
