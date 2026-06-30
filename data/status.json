@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-06-29T18:05:16.243Z",
-  "stale": true,
+  "generatedAt": "2026-06-30T02:43:40.532Z",
+  "stale": false,
   "sourceStatus": {
     "dexscreener": {
       "status": "ok",
-      "observedAt": "2026-06-29T18:05:16.243Z"
+      "observedAt": "2026-06-30T02:43:40.532Z"
     },
     "defillama": {
       "status": "ok",
-      "observedAt": "2026-06-29T18:05:16.243Z"
+      "observedAt": "2026-06-30T02:43:40.532Z"
     },
     "rpc": {
       "status": "ok",
-      "observedAt": "2026-06-29T18:05:16.243Z"
+      "observedAt": "2026-06-30T02:43:40.532Z"
     }
   },
   "chainHeads": {
     "ethereum": {
-      "status": "error",
-      "observedAt": "2026-06-29T18:05:26.434Z",
-      "message": "Ethereum RPC: The operation was aborted due to timeout"
+      "height": 25427583,
+      "observedAt": "2026-06-30T02:43:40.948Z",
+      "status": "ok"
     },
     "bsc": {
-      "height": 107105980,
-      "observedAt": "2026-06-29T18:05:17.124Z",
+      "height": 107175009,
+      "observedAt": "2026-06-30T02:43:41.129Z",
       "status": "ok"
     },
     "solana": {
-      "height": 429714548,
-      "observedAt": "2026-06-29T18:05:16.778Z",
+      "height": 429791654,
+      "observedAt": "2026-06-30T02:43:41.173Z",
       "status": "ok"
     }
   },
   "rejected": {
-    "pools": 40,
-    "protocols": 2589,
-    "yields": 6913
+    "pools": 55,
+    "protocols": 2579,
+    "yields": 6902
   }
 }
