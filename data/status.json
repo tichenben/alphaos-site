@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-10T01:11:36.161Z",
-  "stale": false,
+  "generatedAt": "2026-08-10T09:11:29.848Z",
+  "stale": true,
   "sourceStatus": {
     "dexscreener": {
       "status": "ok",
-      "observedAt": "2026-08-10T01:11:36.161Z"
+      "observedAt": "2026-08-10T09:11:29.848Z"
     },
     "defillama": {
       "status": "ok",
-      "observedAt": "2026-08-10T01:11:36.161Z"
+      "observedAt": "2026-08-10T09:11:29.848Z"
     },
     "rpc": {
       "status": "ok",
-      "observedAt": "2026-08-10T01:11:36.161Z"
+      "observedAt": "2026-08-10T09:11:29.848Z"
     }
   },
   "chainHeads": {
     "ethereum": {
-      "height": 25721222,
-      "observedAt": "2026-08-10T01:11:36.549Z",
+      "height": 25723613,
+      "observedAt": "2026-08-10T09:11:30.320Z",
       "status": "ok"
     },
     "bsc": {
-      "height": 115030599,
-      "observedAt": "2026-08-10T01:11:36.850Z",
-      "status": "ok"
+      "status": "error",
+      "observedAt": "2026-08-10T09:11:39.997Z",
+      "message": "BNB Chain RPC: The operation was aborted due to timeout"
     },
     "solana": {
-      "height": 438305398,
-      "observedAt": "2026-08-10T01:11:37.119Z",
+      "height": 438373521,
+      "observedAt": "2026-08-10T09:11:30.398Z",
       "status": "ok"
     }
   },
   "rejected": {
-    "pools": 31,
-    "protocols": 2453,
-    "yields": 6500
+    "pools": 34,
+    "protocols": 2398,
+    "yields": 6497
   }
 }
